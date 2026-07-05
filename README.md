@@ -129,7 +129,7 @@ Raw data files should be placed or downloaded into this folder.
 
 The notebooks should be executed in order.
 
-### Notebook 1: 1_Download_Citibike_Jersey_Data copy.ipynb
+### Notebook 1: 01_Download_Citibike_Jersey_Data copy.ipynb
 
 Downloads Jersey City Citi Bike trip data.
 
@@ -145,7 +145,7 @@ Downloads Jersey City Citi Bike trip data.
 
 ---
 
-### Notebook 2: 2_Data_Enrichment.ipynb
+### Notebook 2: 02_Data_Enrichment.ipynb
 
 Cleans and enriches the raw Citi Bike data.
 
@@ -162,7 +162,7 @@ This notebook transforms raw data into an analysis-ready format.
 
 ---
 
-### Notebook 3: 3_Weather_Data.ipynb
+### Notebook 3: 03_Weather_Data.ipynb
 
 Prepares weather data for Jersey City.
 
@@ -177,7 +177,7 @@ This notebook helps analyze the relationship between weather and Citi Bike usage
 
 ---
 
-### Notebook 4: 4_Data_Visualization.ipynb
+### Notebook 4: 04_Data_Visualization.ipynb
 
 Creates visualizations for the project.
 
@@ -198,7 +198,7 @@ This notebook focuses on visual analysis.
 
 ---
 
-### Notebook 5: 5_Neighborhood_Analysis copy.ipynb
+### Notebook 5: 05_Neighborhood_Analysis copy.ipynb
 
 Performs neighborhood-level geospatial analysis.
 
@@ -217,11 +217,11 @@ This notebook helps understand Citi Bike usage across different neighborhoods.
 
 Run the notebooks in the following order:
 
-1. `1_Download_Citibike_Jersey_Data copy.ipynb`
-2. `2_Data_Enrichment.ipynb`
-3. `3_Weather_Data.ipynb`
-4. `4_Data_Visualization.ipynb`
-5. `5_Neighborhood_Analysis copy.ipynb`
+1. `01_Download_Citibike_Jersey_Data copy.ipynb`
+2. `02_Data_Enrichment.ipynb`
+3. `03_Weather_Data.ipynb`
+4. `04_Data_Visualization.ipynb`
+5. `05_Neighborhood_Analysis copy.ipynb`
 
 > The order is important because later notebooks depend on outputs from earlier notebooks.
 
