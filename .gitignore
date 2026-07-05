@@ -3,6 +3,8 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+data/citibike/JC/JC2025_Enriched.csv
+data/citibike/JC/JC2025.csv
 # C extensions
 *.so
 
